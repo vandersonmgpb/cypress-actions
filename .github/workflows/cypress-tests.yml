@@ -11,7 +11,7 @@ jobs:
   cypress-electron-tests:
     runs-on: ubuntu-latest
     container:
-        image: cypress/browsers:node18.12.0-chrome103-ff107
+        image: cypress/browsers:node-20.15.1-chrome-126.0.6478.126-1-ff-128.0-edge-126.0.2592.102-1
         options: --user 1001
     steps:
       - name: Get code
