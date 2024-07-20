@@ -1,7 +1,7 @@
 const cypress = require('cypress')
 const tesults = require('cypress-tesults-reporter');
 
-const TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6ImYyMjJiOGNiLWIyNGItNGEwNi05NWYyLWNmZjQ3MzU1MmM3OSIsImV4cCI6NDEwMjQ0NDgwMDAwMCwidmVyIjoiMCIsInNlcyI6IjMwODAwOTJhLTVjNjYtNGJiNC04ZmM4LWQ0OTUzMjY4OWI0ZiIsInR5cGUiOiJhcCJ9.7DWjPquKwGdhwmshxc55W0X3rAR92E6PhcdNj0xeNxQ'
+const TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6ImYyMjJiOGNiLWIyNGItNGEwNi05NWYyLWNmZjQ3MzU1MmM3OS0xNzIxNDY4NTM3MDg1IiwiZXhwIjo0MTAyNDQ0ODAwMDAwLCJ2ZXIiOiIwIiwic2VzIjoiOGFjOWY4YWYtMjMyMi00NTVjLWE4YzktYTNjMDQ1MzYzNzBmIiwidHlwZSI6InQifQ.IM7RghimVeeJhPQ0fkiZujCGiGFO9lNpKNdC8A-boNU'
 
 cypress.run({
   // specs to run here
